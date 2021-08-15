@@ -6,9 +6,9 @@ def is_date(date):
     year = date[:4] # 무조건 8자리가 주어지므로 년도는 검사하지 않는다.
     mon = int(date[4:6]) # 달은 검사를 위해 int
     day = int(date[6:]) # 날짜도 마찬가지
-    
+
     if mon == 2: # 가장 특이 케이스인 2월부터 처리
-        if 1 <= day <= 28: # 직관성을 위해 <= 활용
+        if 1 <= day <= 28: # 직관성을 위해 '<=' 활용
             return '/'.join([year, date[4:6], date[6:]])
     elif 1 <= mon <= 7: # 홀수 달이 31일인 7월까지
         if 1 <= day <= 30 + mon % 2: # 홀수인 경우에만 31일도 되도록 처리
