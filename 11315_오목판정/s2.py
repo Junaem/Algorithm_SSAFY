@@ -3,7 +3,7 @@ import sys
 sys.stdin = open('input.txt')
 
 def bingo(st):
-    if not st:
+    if len(st) != 5:
         return False
     for i in st:
         if i == '.':
@@ -13,33 +13,27 @@ def bingo(st):
 def omoc(n):
     li = [input() for _ in range(n)]
     for i in range(n):
-        for j in range(n - 4):
+        for j in range(n):
             garo = ''
             sero = ''
-            for k in range(5):
-                garo += li[i][j+k]
-                sero += li[j+k][i]
-
-            if bingo(garo):
-                return 'YES'
-            elif bingo(sero):
-                return 'YES'
-
-    for i in range(n):
-        for j in range(n):
             diag_l = ''
             diag_r = ''
             for k in range(5):
+                if j+4 < n:
+                    garo += li[i][j+k]
+                    sero += li[j+k][i]
                 if i < n-4 and j < n-4:
                     diag_l += li[i+k][j+k]
                 if i > 3 and j < n-4:
                     diag_r += li[i-k][j+k]
-
-            if bingo(diag_l):
+            if bingo(garo):
+                return 'YES'
+            elif bingo(sero):
+                return 'YES'
+            elif bingo(diag_l):
                 return 'YES'
             elif bingo(diag_r):
                 return 'YES'
-
     return 'NO'
 
 
