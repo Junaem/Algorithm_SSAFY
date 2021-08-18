@@ -4,7 +4,7 @@ sys.stdin = open('input.txt')
 
 def rcCar(n):
     moved = 0 # 움직인 위치
-    drc, acc, vlc = 0, 0, 0 # 방향, 가속도, 현재속도
+    vlc = 0 # 현재속도
 
     for _ in range(n):
         cmd = list(map(int, input().split()))
