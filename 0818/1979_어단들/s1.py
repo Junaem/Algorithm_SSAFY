@@ -9,7 +9,7 @@ def cross(n, key):
         for k in range(n):
             # 행으로 넣을 수 있는 것들 확인
             # 현재 칸이 빈 칸의 시작점이 맞는지 확인
-            if li[i][k] and (k == 0 or not li[i][k - 1]) :
+            if li[i][k] == 1 and (k == 0 or li[i][k - 1] == 0) :
                 k_end = k # 빈 칸의 길이를 확인
                 while k_end + 1 < n and li[i][k_end + 1]:
                     k_end += 1
