@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e436d9cd-ee53-4e81-90f6-713f914248a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/0820/1946_간단한압축/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0820/1946_간단한압축/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0823/1227_미로2/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0823/1227_미로2/s1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0820/10570_제곱팰린드롬수/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/0820/10570_제곱팰린드롬수/s1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0820/10570_제곱팰린드롬수/s2.py" beforeDir="false" afterPath="$PROJECT_DIR$/0820/10570_제곱팰린드롬수/s2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0820/1289_원재의메모리복구하기/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/0820/1289_원재의메모리복구하기/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0820/1946_간단한압축/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/0820/1946_간단한압축/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0820/1946_간단한압축/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/0820/1946_간단한압축/s1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0820/1983_조교의성적매기기/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/0820/1983_조교의성적매기기/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0823/1227_미로2/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/0823/1227_미로2/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0823/1227_미로2/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/0823/1227_미로2/s1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -353,7 +352,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2873" y="-475" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.16452992" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
