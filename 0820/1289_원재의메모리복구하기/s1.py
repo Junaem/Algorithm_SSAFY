@@ -2,7 +2,7 @@ import sys
 
 sys.stdin = open('input.txt')
 
-def restore(N):
+def restore(N): # 문제에서 요구하는 건 0과 1이 몇 번 바뀌는 지이다.
     cnt = 0
     cur = '0'
     for i in N:
