@@ -8,7 +8,6 @@ def harvest(N, farm):
     for i in range(N):
         for k in range(abs(mid-i), N - abs(mid-i)):
             rst += farm[i][k]
-
     return rst
 
 
