@@ -8,9 +8,6 @@ def repair(N):
     queue = [[0,0]]
     while queue:
         y, x = queue.pop(0)
-        if visited[y][x]:
-            continue
-        visited[y][x] = True
         cur_sum = time_sum[y][x]
         for d in range(4):
             dy, dx = dlt[d]
@@ -21,9 +18,10 @@ def repair(N):
             if nt_sum:
                 if cur_sum + battleground[ny][nx] < nt_sum:
                     time_sum[ny][nx] = cur_sum + battleground[ny][nx]
+                    queue.append((ny, nx))
             else:
                 time_sum[ny][nx] = cur_sum + battleground[ny][nx]
-            queue.append((ny, nx))
+                queue.append((ny, nx))
 
     return time_sum[N-1][N-1]
 
